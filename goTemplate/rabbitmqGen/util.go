@@ -2,17 +2,16 @@ package rabbitmqGen
 
 import (
 	"bytes"
+	"cztctl/util/utilX"
 	"fmt"
-	"github.com/lerity-yao/cztctl/util/utilX"
-	"github.com/zeromicro/go-zero/tools/goctl/api/util"
 	"io"
 	"strings"
 	"text/template"
 
-	"github.com/lerity-yao/cztctl/pkg/spec"
-	"github.com/lerity-yao/cztctl/util/pathx"
+	"cztctl/pkg/golang"
+	"cztctl/pkg/spec"
+	"cztctl/util/pathx"
 	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/golang"
 )
 
 type fileGenConfig struct {
@@ -192,7 +191,7 @@ func getDoc(doc string) string {
 }
 
 func writeProperty(writer io.Writer, name, tag, comment string, tp spec.Type, indent int) error {
-	util.WriteIndent(writer, indent)
+	utilX.WriteIndent(writer, indent)
 	var (
 		err            error
 		isNestedStruct bool

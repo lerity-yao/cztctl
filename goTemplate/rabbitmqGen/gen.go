@@ -1,15 +1,15 @@
 package rabbitmqGen
 
 import (
+	"cztctl/config"
+	"cztctl/pkg/golang"
+	"cztctl/util"
+	"cztctl/util/pathx"
 	"errors"
 	"fmt"
 	"github.com/gookit/color"
-	"github.com/lerity-yao/cztctl/config"
-	"github.com/lerity-yao/cztctl/util"
-	"github.com/lerity-yao/cztctl/util/pathx"
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/golang"
 	"os"
 	"path"
 )
@@ -51,7 +51,7 @@ func RabbitmqCommand(_ *cobra.Command, _ []string) error {
 	}
 
 	if len(home) > 0 {
-		pathx.Registergithub.com/lerity - yao/cztctlHome(home)
+		pathx.RegisterCztctlHome(home)
 	}
 	if len(rabbitmqFile) == 0 {
 		return errors.New("missing -rabbitmq")

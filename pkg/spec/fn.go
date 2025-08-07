@@ -1,8 +1,8 @@
 package spec
 
 import (
+	"cztctl/util"
 	"errors"
-	"github.com/lerity-yao/cztctl/util"
 	"path"
 	"slices"
 	"strings"

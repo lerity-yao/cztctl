@@ -3,10 +3,10 @@ package pathx
 import (
 	"bufio"
 	"crypto/md5"
+	"cztctl/internal/version"
 	"encoding/hex"
 	"fmt"
 	"github.com/gookit/color"
-	"github.com/lerity-yao/cztctl/internal/version"
 	"io"
 	"io/fs"
 	"log"

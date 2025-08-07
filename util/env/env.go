@@ -1,7 +1,7 @@
 package env
 
 import (
-	"github.com/zeromicro/go-zero/tools/goctl/vars"
+	"cztctl/vars"
 	"os"
 	"os/exec"
 	"path/filepath"

@@ -1,8 +1,8 @@
 package cobrax
 
 import (
+	"cztctl/internal/flags"
 	"fmt"
-	"github.com/lerity-yao/cztctl/internal/flags"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

@@ -1,10 +1,10 @@
 package parser
 
 import (
+	"cztctl/pkg/ast"
+	"cztctl/pkg/scanner"
+	"cztctl/pkg/token"
 	"fmt"
-	"github.com/lerity-yao/cztctl/pkg/ast"
-	"github.com/lerity-yao/cztctl/pkg/scanner"
-	"github.com/lerity-yao/cztctl/pkg/token"
 	"log"
 	"path/filepath"
 	"reflect"

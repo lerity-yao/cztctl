@@ -1,9 +1,9 @@
 package parser
 
 import (
+	"cztctl/pkg/ast"
+	"cztctl/pkg/token"
 	"fmt"
-	"github.com/lerity-yao/cztctl/pkg/ast"
-	"github.com/lerity-yao/cztctl/pkg/token"
 )
 
 type filterBuilder struct {

@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/lerity-yao/cztctl/pkg/token"
-	"github.com/lerity-yao/cztctl/util/pathx"
+	"cztctl/pkg/token"
+	"cztctl/util/pathx"
 )
 
 const (

@@ -3,8 +3,8 @@ package token
 import (
 	"fmt"
 
-	"github.com/lerity-yao/cztctl/pkg/placeholder"
-	"github.com/lerity-yao/cztctl/util"
+	"cztctl/pkg/placeholder"
+	"cztctl/util"
 )
 
 const (

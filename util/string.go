@@ -1,7 +1,7 @@
 package util
 
 import (
-	"github.com/lerity-yao/cztctl/util/console"
+	"cztctl/util/console"
 	"strings"
 )
 

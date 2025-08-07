@@ -7,7 +7,7 @@ import (
 	"os"
 	"reflect"
 
-	apitoken "github.com/lerity-yao/cztctl/pkg/token"
+	apitoken "cztctl/pkg/token"
 )
 
 // A FieldFilter may be provided to Fprint to control the output.

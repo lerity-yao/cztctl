@@ -2,9 +2,9 @@ package ast
 
 import (
 	"bytes"
+	"cztctl/pkg/token"
+	"cztctl/util"
 	"fmt"
-	"github.com/lerity-yao/cztctl/pkg/token"
-	"github.com/lerity-yao/cztctl/util"
 	"io"
 	"strings"
 	"text/tabwriter"

@@ -1,9 +1,9 @@
 package rabbitmqGen
 
 import (
-	apiParser "github.com/lerity-yao/cztctl/pkg/parser"
-	"github.com/lerity-yao/cztctl/pkg/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser/g4/ast"
+	apiParser "cztctl/pkg/parser"
+	"cztctl/pkg/parser/ast"
+	"cztctl/pkg/spec"
 )
 
 type parser struct {

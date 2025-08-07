@@ -1,12 +1,12 @@
 package cmd
 
 import (
+	"cztctl/goTemplate"
+	"cztctl/internal/cobrax"
+	"cztctl/internal/version"
 	_ "embed"
 	"fmt"
 	"github.com/gookit/color"
-	"github.com/lerity-yao/cztctl/goTemplate"
-	"github.com/lerity-yao/cztctl/internal/cobrax"
-	"github.com/lerity-yao/cztctl/internal/version"
 	"github.com/spf13/cobra"
 	cobracompletefig "github.com/withfig/autocomplete-tools/integrations/cobra"
 	"os"

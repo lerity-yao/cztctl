@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/lerity-yao/cztctl/pkg/token"
-	"github.com/lerity-yao/cztctl/util"
+	"cztctl/pkg/token"
+	"cztctl/util"
 )
 
 // Node represents a node in the AST.

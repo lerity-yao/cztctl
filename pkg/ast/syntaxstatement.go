@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/lerity-yao/cztctl/pkg/token"
+import "cztctl/pkg/token"
 
 // SyntaxStmt represents a syntax statement.
 type SyntaxStmt struct {

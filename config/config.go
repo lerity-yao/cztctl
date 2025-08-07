@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/lerity-yao/cztctl/util/pathx"
+	"cztctl/util/pathx"
 	"github.com/zeromicro/go-zero/tools/goctl/util/ctx"
 	"gopkg.in/yaml.v2"
 )

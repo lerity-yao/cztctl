@@ -1,12 +1,12 @@
 package rabbitmqGen
 
 import (
+	"cztctl/config"
+	"cztctl/pkg/spec"
+	"cztctl/util/format"
+	"cztctl/vars"
 	_ "embed"
 	"fmt"
-	"github.com/lerity-yao/cztctl/config"
-	"github.com/lerity-yao/cztctl/pkg/spec"
-	"github.com/lerity-yao/cztctl/util/format"
-	"github.com/lerity-yao/cztctl/vars"
 	"strings"
 )
 

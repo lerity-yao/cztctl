@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lerity-yao/cztctl/config"
-	"github.com/lerity-yao/cztctl/pkg/spec"
-	"github.com/lerity-yao/cztctl/util/format"
-	"github.com/lerity-yao/cztctl/util/pathx"
-	"github.com/lerity-yao/cztctl/vars"
+	"cztctl/config"
+	"cztctl/pkg/spec"
+	"cztctl/util/format"
+	"cztctl/util/pathx"
+	"cztctl/vars"
 )
 
 //go:embed main.tpl

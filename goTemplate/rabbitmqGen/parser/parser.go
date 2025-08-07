@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/lerity-yao/cztctl/goTemplate/rabbitmqGen/scanner"
-	"github.com/lerity-yao/cztctl/goTemplate/rabbitmqGen/token"
+	"cztctl/goTemplate/rabbitmqGen/scanner"
+	"cztctl/goTemplate/rabbitmqGen/token"
 	"log"
 	"path/filepath"
 )

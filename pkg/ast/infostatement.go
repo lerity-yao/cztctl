@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/lerity-yao/cztctl/pkg/token"
+import "cztctl/pkg/token"
 
 // InfoStmt is the info statement.
 type InfoStmt struct {
