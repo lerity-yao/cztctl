@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"cztctl/util/pathx"
+	"github.com/lerity-yao/cztctl/util/pathx"
 )
 
 // GoBin returns a path of GOBIN.

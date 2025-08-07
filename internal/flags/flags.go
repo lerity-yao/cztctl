@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"cztctl/util"
+	"github.com/lerity-yao/cztctl/util"
 )
 
 //go:embed default_en.json

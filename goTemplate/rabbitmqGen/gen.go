@@ -1,13 +1,13 @@
 package rabbitmqGen
 
 import (
-	"cztctl/config"
-	"cztctl/pkg/golang"
-	"cztctl/util"
-	"cztctl/util/pathx"
 	"errors"
 	"fmt"
 	"github.com/gookit/color"
+	"github.com/lerity-yao/cztctl/config"
+	"github.com/lerity-yao/cztctl/pkg/golang"
+	"github.com/lerity-yao/cztctl/util"
+	"github.com/lerity-yao/cztctl/util/pathx"
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/core/logx"
 	"os"

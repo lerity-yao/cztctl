@@ -1,10 +1,10 @@
 package utilX
 
 import (
-	"cztctl/pkg/spec"
-	"cztctl/util/pathx"
 	"errors"
 	"fmt"
+	"github.com/lerity-yao/cztctl/pkg/spec"
+	"github.com/lerity-yao/cztctl/util/pathx"
 	"github.com/zeromicro/go-zero/core/logx"
 	"io"
 	"os"

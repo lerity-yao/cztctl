@@ -2,9 +2,9 @@ package scanner
 
 import (
 	"bytes"
-	"cztctl/goTemplate/rabbitmqGen/token"
-	"cztctl/util/pathx"
 	"fmt"
+	"github.com/lerity-yao/cztctl/goTemplate/rabbitmqGen/token"
+	"github.com/lerity-yao/cztctl/util/pathx"
 	"log"
 	"os"
 	"path/filepath"

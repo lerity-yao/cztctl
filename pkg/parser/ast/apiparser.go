@@ -1,9 +1,9 @@
 package ast
 
 import (
-	"cztctl/pkg/parser/api"
-	"cztctl/util/console"
 	"fmt"
+	"github.com/lerity-yao/cztctl/pkg/parser/api"
+	"github.com/lerity-yao/cztctl/util/console"
 	"github.com/zeromicro/antlr"
 	"os"
 	"path"

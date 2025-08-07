@@ -1,8 +1,8 @@
 package ast
 
 import (
-	"cztctl/pkg/parser/api"
 	"fmt"
+	"github.com/lerity-yao/cztctl/pkg/parser/api"
 	"path"
 	"sort"
 )

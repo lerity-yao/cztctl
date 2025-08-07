@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cztctl/vars"
+	"github.com/lerity-yao/cztctl/vars"
 )
 
 const (

@@ -3,7 +3,7 @@ package ast
 import (
 	"strings"
 
-	"cztctl/pkg/parser/api"
+	"github.com/lerity-yao/cztctl/pkg/parser/api"
 )
 
 // KvExpr describes key-value for api

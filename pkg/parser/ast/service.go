@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"cztctl/pkg/parser/api"
+	"github.com/lerity-yao/cztctl/pkg/parser/api"
 )
 
 // Service describes service for api syntax

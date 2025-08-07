@@ -1,12 +1,12 @@
 package rabbitmqGen
 
 import (
-	"cztctl/config"
-	"cztctl/internal/version"
-	"cztctl/pkg/spec"
-	"cztctl/util/format"
-	"cztctl/util/pathx"
 	"fmt"
+	"github.com/lerity-yao/cztctl/config"
+	"github.com/lerity-yao/cztctl/internal/version"
+	"github.com/lerity-yao/cztctl/pkg/spec"
+	"github.com/lerity-yao/cztctl/util/format"
+	"github.com/lerity-yao/cztctl/util/pathx"
 	"github.com/zeromicro/go-zero/core/collection"
 	"strings"
 )

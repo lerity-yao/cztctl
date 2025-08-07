@@ -2,15 +2,15 @@ package rabbitmqGen
 
 import (
 	"bytes"
-	"cztctl/util/utilX"
 	"fmt"
+	"github.com/lerity-yao/cztctl/util/utilX"
 	"io"
 	"strings"
 	"text/template"
 
-	"cztctl/pkg/golang"
-	"cztctl/pkg/spec"
-	"cztctl/util/pathx"
+	"github.com/lerity-yao/cztctl/pkg/golang"
+	"github.com/lerity-yao/cztctl/pkg/spec"
+	"github.com/lerity-yao/cztctl/util/pathx"
 	"github.com/zeromicro/go-zero/core/collection"
 )
 

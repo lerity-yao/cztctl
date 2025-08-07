@@ -1,6 +1,6 @@
 package ast
 
-import "cztctl/pkg/parser/api"
+import "github.com/lerity-yao/cztctl/pkg/parser/api"
 
 // InfoExpr defines info syntax for api
 type InfoExpr struct {

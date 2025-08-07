@@ -1,9 +1,9 @@
 package util
 
 import (
-	"cztctl/util/env"
-	"cztctl/util/pathx"
 	"fmt"
+	"github.com/lerity-yao/cztctl/util/env"
+	"github.com/lerity-yao/cztctl/util/pathx"
 	"os"
 	"os/exec"
 	"path/filepath"

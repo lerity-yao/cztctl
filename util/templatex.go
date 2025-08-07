@@ -2,13 +2,13 @@ package util
 
 import (
 	"bytes"
-	"cztctl/internal/errorx"
+	"github.com/lerity-yao/cztctl/internal/errorx"
 	goformat "go/format"
 	"os"
 	"regexp"
 	"text/template"
 
-	"cztctl/util/pathx"
+	"github.com/lerity-yao/cztctl/util/pathx"
 )
 
 const regularPerm = 0o666

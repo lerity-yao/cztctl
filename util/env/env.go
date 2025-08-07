@@ -1,7 +1,7 @@
 package env
 
 import (
-	"cztctl/vars"
+	"github.com/lerity-yao/cztctl/vars"
 	"os"
 	"os/exec"
 	"path/filepath"

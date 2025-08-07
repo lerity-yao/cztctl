@@ -1,6 +1,6 @@
 package ast
 
-import "cztctl/pkg/parser/api"
+import "github.com/lerity-yao/cztctl/pkg/parser/api"
 
 // ImportExpr defines import syntax for api
 type ImportExpr struct {

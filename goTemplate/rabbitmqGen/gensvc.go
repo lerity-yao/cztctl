@@ -1,11 +1,11 @@
 package rabbitmqGen
 
 import (
-	"cztctl/config"
-	"cztctl/pkg/spec"
-	"cztctl/util/format"
-	"cztctl/util/pathx"
 	_ "embed"
+	"github.com/lerity-yao/cztctl/config"
+	"github.com/lerity-yao/cztctl/pkg/spec"
+	"github.com/lerity-yao/cztctl/util/format"
+	"github.com/lerity-yao/cztctl/util/pathx"
 )
 
 const contextFilename = "service_context"
