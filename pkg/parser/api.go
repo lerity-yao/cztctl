@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cztctl/pkg/ast"
-	"cztctl/pkg/importstack"
-	"cztctl/pkg/placeholder"
-	"cztctl/pkg/token"
+	"github.com/lerity-yao/cztctl/pkg/ast"
+	"github.com/lerity-yao/cztctl/pkg/importstack"
+	"github.com/lerity-yao/cztctl/pkg/placeholder"
+	"github.com/lerity-yao/cztctl/pkg/token"
 	"github.com/zeromicro/go-zero/core/lang"
 )
 

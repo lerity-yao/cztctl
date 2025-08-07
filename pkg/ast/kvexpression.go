@@ -1,6 +1,6 @@
 package ast
 
-import "cztctl/pkg/token"
+import "github.com/lerity-yao/cztctl/pkg/token"
 
 // KVExpr is a key value expression.
 type KVExpr struct {

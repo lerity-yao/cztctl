@@ -1,8 +1,8 @@
 package analyzer
 
 import (
-	"cztctl/goTemplate/rabbitmqGen/parser"
 	"fmt"
+	"github.com/lerity-yao/cztctl/goTemplate/rabbitmqGen/parser"
 )
 
 // Parse parses the given file and returns the parsed spec.

@@ -3,7 +3,7 @@ package rabbitmqGen
 import (
 	"fmt"
 
-	"cztctl/util/pathx"
+	"github.com/lerity-yao/cztctl/util/pathx"
 )
 
 const (

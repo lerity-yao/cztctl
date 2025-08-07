@@ -1,8 +1,8 @@
 package rabbitmqGen
 
 import (
-	apiParser "cztctl/pkg/parser"
-	"cztctl/pkg/spec"
+	apiParser "github.com/lerity-yao/cztctl/pkg/parser"
+	"github.com/lerity-yao/cztctl/pkg/spec"
 	"github.com/zeromicro/go-zero/tools/goctl/api/parser/g4/ast"
 )
 

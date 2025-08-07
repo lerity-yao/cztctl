@@ -1,10 +1,10 @@
 package goTemplate
 
 import (
-	"cztctl/config"
-	"cztctl/goTemplate/goGen"
-	"cztctl/goTemplate/rabbitmqGen"
-	"cztctl/internal/cobrax"
+	"github.com/lerity-yao/cztctl/config"
+	"github.com/lerity-yao/cztctl/goTemplate/goGen"
+	"github.com/lerity-yao/cztctl/goTemplate/rabbitmqGen"
+	"github.com/lerity-yao/cztctl/internal/cobrax"
 )
 
 var (

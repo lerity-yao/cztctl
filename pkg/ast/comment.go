@@ -3,8 +3,8 @@ package ast
 import (
 	"strings"
 
-	"cztctl/pkg/token"
-	"cztctl/util"
+	"github.com/lerity-yao/cztctl/pkg/token"
+	"github.com/lerity-yao/cztctl/util"
 )
 
 // CommentGroup represents a list of comments.

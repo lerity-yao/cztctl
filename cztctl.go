@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cztctl/cmd"
+	"github.com/lerity-yao/cztctl/cmd"
 	"github.com/zeromicro/go-zero/core/load"
 	"github.com/zeromicro/go-zero/core/logx"
 )

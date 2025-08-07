@@ -1,14 +1,14 @@
 package rabbitmqGen
 
 import (
-	"cztctl/config"
-	"cztctl/pkg/parser/api"
-	"cztctl/pkg/spec"
 	"cztctl/util/format"
 	"cztctl/util/pathx"
 	"cztctl/vars"
 	_ "embed"
 	"fmt"
+	"github.com/lerity-yao/cztctl/config"
+	"github.com/lerity-yao/cztctl/pkg/parser/api"
+	"github.com/lerity-yao/cztctl/pkg/spec"
 	"path"
 	"strconv"
 	"strings"

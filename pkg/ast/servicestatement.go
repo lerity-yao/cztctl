@@ -1,6 +1,6 @@
 package ast
 
-import "cztctl/pkg/token"
+import "github.com/lerity-yao/cztctl/pkg/token"
 
 // AtServerStmt represents @server statement.
 type AtServerStmt struct {

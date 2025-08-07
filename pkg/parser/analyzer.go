@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strings"
 
-	"cztctl/pkg/ast"
-	"cztctl/pkg/importstack"
-	"cztctl/pkg/placeholder"
-	"cztctl/pkg/spec"
 	"cztctl/pkg/token"
+	"github.com/lerity-yao/cztctl/pkg/ast"
+	"github.com/lerity-yao/cztctl/pkg/importstack"
+	"github.com/lerity-yao/cztctl/pkg/placeholder"
+	"github.com/lerity-yao/cztctl/pkg/spec"
 	"github.com/zeromicro/go-zero/core/lang"
 )
 

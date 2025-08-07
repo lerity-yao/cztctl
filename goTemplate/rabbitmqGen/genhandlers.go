@@ -6,10 +6,10 @@ import (
 	"path"
 	"strings"
 
-	"cztctl/config"
-	"cztctl/pkg/spec"
 	"cztctl/util/format"
 	"cztctl/util/pathx"
+	"github.com/lerity-yao/cztctl/config"
+	"github.com/lerity-yao/cztctl/pkg/spec"
 )
 
 const defaultLogicPackage = "logic"
