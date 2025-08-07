@@ -61,7 +61,7 @@ func getListenerConfig(api *spec.ApiSpec) []string {
 	listenerNames := collection.NewSet()
 	for _, g := range api.Service.Groups {
 		for _, h := range g.Routes {
-			l := fmt.Sprintf("%sRabbtmqConf: \n  Username:\n  Password:\n  Host:\n  Port:\n  ListenerQueues:\n", h.Listener)
+			l := fmt.Sprintf("%sRabbitmqConf: \n  Username:\n  Password:\n  Host:\n  Port:\n  ListenerQueues:\n", h.Listener)
 			for _, i := range h.Queues {
 				l += fmt.Sprintf("    - Name: %s\n", i)
 			}
