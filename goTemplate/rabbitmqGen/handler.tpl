@@ -1,6 +1,7 @@
 package {{.PkgName}}
 
 import (
+    "context"
 	{{.ImportPackages}}
 )
 
