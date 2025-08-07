@@ -9,12 +9,12 @@ import (
 	"sort"
 	"strings"
 
-	"cztctl/util/format"
-	apiutil "cztctl/util/utilX"
+	apiutil "github.com/lerity-yao/cztctL/util/utilX"
 	"github.com/lerity-yao/cztctl/config"
 	"github.com/lerity-yao/cztctl/internal/version"
 	"github.com/lerity-yao/cztctl/pkg/spec"
 	"github.com/lerity-yao/cztctl/util"
+	"github.com/lerity-yao/cztctl/util/format"
 	"github.com/zeromicro/go-zero/core/collection"
 )
 
