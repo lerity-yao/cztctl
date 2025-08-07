@@ -3,6 +3,7 @@ package rabbitmqGen
 import (
 	_ "embed"
 	"fmt"
+	"github.com/lerity-yao/cztctl/vars"
 	"path"
 	"strings"
 
@@ -64,7 +65,8 @@ func genHandlerImports(group spec.Group, route spec.Route, parentPkg string) str
 	imports := []string{
 		fmt.Sprintf("\"%s\"", pathx.JoinPackages(parentPkg, getLogicFolderPath(group, route))),
 		fmt.Sprintf("\"%s\"", pathx.JoinPackages(parentPkg, contextDir)),
-		fmt.Sprintf("\"%s\"", "github.com/lerity-yao/go-mq/rabbitmq"),
+		fmt.Sprintf("\"%s/go-mq/rabbitmq\"", vars.LerityOpenSourceUrl),
+		fmt.Sprintf("\"%s/core/service\"", vars.ProjectOpenSourceURL),
 	}
 	if len(route.RequestTypeName()) > 0 {
 		imports = append(imports, fmt.Sprintf("\"%s\"\n", pathx.JoinPackages(parentPkg, typesDir)))
