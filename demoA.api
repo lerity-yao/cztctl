@@ -1,0 +1,40 @@
+type (
+    // 用户结构体
+   User {
+        Name string `json:"name"` // 用户名称
+   }
+
+   Name {
+        Code int `json:"code"`
+   }
+)
+
+@server(
+    // 分组 demoA
+    group: demoA
+)
+service demoA {
+    // 消费者 GDemoA
+    @listener GDemoA
+    /queue.test.5 /queue6
+}
+
+@server(
+    // 分组demoA
+    group: demoA
+)
+service demoA {
+    // 消费者 GDemoAZZ
+    @listener GDemoAZZ
+    /queue3 /queue4
+}
+
+@server(
+    // 分组demoB
+    group: demoB
+)
+service demoA {
+    // 消费者 GDemoBZZ
+    @listener GDemoBZZ
+    /queue.test.5 /queue6
+}

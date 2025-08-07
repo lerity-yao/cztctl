@@ -1,0 +1,20 @@
+type (
+    // 用户结构体
+   User {
+        Name string `json:"name"` // 用户名称
+   }
+
+   Name {
+        Code int `json:"code"`
+   }
+)
+
+@server(
+    // 分组 demoA
+    group: demoA
+)
+service demoB {
+    // 消费者 GDemoA
+    @handler GDemoA
+    post /v1/api
+}
