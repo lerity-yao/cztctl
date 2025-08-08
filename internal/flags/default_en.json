@@ -9,9 +9,9 @@
       "branch": "{{.global.branch}}",
       "dir": "The target dir, source files will be output here",
       "rabbitmq": {
-        "short": "Generate Go source files for a RabbitMQ consumer service from a .rabbitmq definition file using the go-zero framework.",
+        "short": "Generate Go source files for a RabbitMQ consumer service from a .api definition file using the go-zero framework.",
         "dir": "{{.cztctl.go.dir}}",
-        "rabbitmq": "The .rabbitmq file",
+        "rabbitmq": "The .api file",
         "home": "{{.global.home}}",
         "remote": "{{.global.remote}}",
         "branch": "{{.global.branch}}",
