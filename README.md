@@ -170,7 +170,9 @@ type 语法完全跟 go-zero 一致
 @server 中只能写 group
 
 service 中@listener消费者名称
+
 @listener下一行代表队列命名，可以写多个，每一个用/开头，空格隔开多个
+
 service名称必须全局唯一
 
 示例
