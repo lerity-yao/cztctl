@@ -162,3 +162,58 @@ go rabbitmq --rabbitmq ./demoA.api --dir ./zf --remote https://{username}:{pwd}@
         +---svc
         \---types
 ```
+
+### rabbitmq api文件语法
+
+type 语法完全跟 go-zero 一致
+
+@server 中只能写 group
+
+service 中@listener消费者名称
+@listener下一行代表队列命名，可以写多个，每一个用/开头，空格隔开多个
+service名称必须全局唯一
+
+示例
+
+```api
+type (
+    // 用户结构体
+   User {
+        Name string `json:"name"` // 用户名称
+   }
+
+   Name {
+        Code int `json:"code"`
+   }
+)
+
+@server(
+    // 分组 demoA
+    group: demoA
+)
+service demoA {
+    // 消费者 GDemoA
+    @listener GDemoA
+    /queue.test.5 /queue6
+}
+
+@server(
+    // 分组demoA
+    group: demoA
+)
+service demoA {
+    // 消费者 GDemoAZZ
+    @listener GDemoAZZ
+    /queue3 /queue4
+}
+
+@server(
+    // 分组demoB
+    group: demoB
+)
+service demoA {
+    // 消费者 GDemoBZZ
+    @listener GDemoBZZ
+    /queue.test.5 /queue6
+}
+```
