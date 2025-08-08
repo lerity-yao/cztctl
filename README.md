@@ -12,7 +12,7 @@
 
 ```go
 GOPROXY=https://goproxy.cn/,direct
-go install github.com/lerity-yao/goctl-swagger@latest
+go install github.com/lerity-yao/cztctl@latest
 ```
 
 ### 配置环境
