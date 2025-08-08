@@ -140,10 +140,10 @@ cztctl go rabbitmq --rabbitmq demoA.api -dir ./bf --home ./deploy
 
 ```shell
 # 使用远程模板命令
-go rabbitmq --rabbitmq ./demoA.api --dir ./zf --remote https://{username}:{pwd}@codeup.aliyun.com/5ff662d499fffffb1c5f96c0/ystz/goctl-template.git
+cztctl go rabbitmq --rabbitmq ./demoA.api --dir ./zf --remote https://{username}:{pwd}@codeup.aliyun.com/5ff662d499fffffb1c5f96c0/ystz/goctl-template.git
 
 # 使用远程模板指定分支命令
-go rabbitmq --rabbitmq ./demoA.api --dir ./zf --remote https://{username}:{pwd}@codeup.aliyun.com/5ff662d499fffffb1c5f96c0/ystz/goctl-template.git --branch dev-yaox
+cztctl go rabbitmq --rabbitmq ./demoA.api --dir ./zf --remote https://{username}:{pwd}@codeup.aliyun.com/5ff662d499fffffb1c5f96c0/ystz/goctl-template.git --branch dev-yaox
 ```
 
 生成的代码目录结构如下:
