@@ -13,6 +13,9 @@ func main() {
 
 	var c config.Config
 	conf.MustLoad(*configFile, &c, conf.UseEnv())
+	if err := c.SetUp(); err != nil {
+		panic(err)
+	}
 
 	ctx := svc.NewServiceContext(c)
 
